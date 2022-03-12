@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>POP UP</title>
+    <link rel="stylesheet" href="pop.css" />
+  </head>
+
+  <body>
+    <div class="fname">
+    <label for="fname">First name:</label></div><br>
+  <input type="text" id="fname" name="fname" value=""></div><div class="lname"><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" value=""></div>
+<div class="content">
+  <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+  <div class="popup" id="popup">
+    <img src="img.jpg">
+    <h2>Your details has been successfully submitted. Thanks!..</h2>
+    <button type="button" onclick="closePopup()">Ok</button>
+  </div>
+</div>
+
+    <script src="pop.js"></script>
+</body>
+</html>
